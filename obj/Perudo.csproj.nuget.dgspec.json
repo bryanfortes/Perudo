@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bryan\\Documents\\Perudo\\Perudo.csproj": {}
+    "C:\\Users\\bryan\\source\\repos\\Perudo\\Perudo\\Perudo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bryan\\Documents\\Perudo\\Perudo.csproj": {
+    "C:\\Users\\bryan\\source\\repos\\Perudo\\Perudo\\Perudo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bryan\\Documents\\Perudo\\Perudo.csproj",
+        "projectUniqueName": "C:\\Users\\bryan\\source\\repos\\Perudo\\Perudo\\Perudo.csproj",
         "projectName": "Perudo",
-        "projectPath": "C:\\Users\\bryan\\Documents\\Perudo\\Perudo.csproj",
+        "projectPath": "C:\\Users\\bryan\\source\\repos\\Perudo\\Perudo\\Perudo.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bryan\\Documents\\Perudo\\obj\\",
+        "outputPath": "C:\\Users\\bryan\\source\\repos\\Perudo\\Perudo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "JavaScriptEngineSwitcher.V8": {
+              "target": "Package",
+              "version": "[3.5.5, )"
+            },
+            "JavaScriptEngineSwitcher.V8.Native.win-x64": {
+              "target": "Package",
+              "version": "[3.5.5, )"
+            },
+            "React.AspNet": {
+              "target": "Package",
+              "version": "[5.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
